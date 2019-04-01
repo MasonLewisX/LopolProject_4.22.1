@@ -179,6 +179,27 @@ bool ALopolProjectCharacter::IsCharacterSelected()
 
 
 
+////////////////////////////////////////////////////////////
+
+
+
+void ALopolProjectCharacter::SetToBeIsolated(bool Isolate)
+{
+	bIsIsolated = Isolate;
+}
+
+bool ALopolProjectCharacter::GetIsCharacterIsolated()
+{
+	return bIsIsolated;
+}
+
+////////////////////////////////////////////////////////
+
+
+
+
+
+
 
 
 

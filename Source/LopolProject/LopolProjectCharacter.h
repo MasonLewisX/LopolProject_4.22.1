@@ -101,6 +101,21 @@ public:
 
 
 
+
+
+
+
+	UFUNCTION(BlueprintCallable, Category = "BehaviorCharacteristic")
+		void SetToBeIsolated(bool Isolate);
+
+	UFUNCTION(BlueprintPure, Category = "BehaviorCharacteristic")
+		bool GetIsCharacterIsolated();
+
+	bool bIsIsolated;
+
+
+
+
 	/*
 
 	UFUNCTION(BlueprintCallable, Category = "Identification")
