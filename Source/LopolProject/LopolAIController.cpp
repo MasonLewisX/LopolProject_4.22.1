@@ -21,22 +21,3 @@ ALopolAIController::ALopolAIController(const FObjectInitializer& ObjectInitializ
 
 
 
-
-
-void ALopolAIController::Possess(APawn* InPawn)
-{
-	Super::Possess(InPawn);
-	/*
-	ASimpleGameBot* Bot = Cast<ASimpleGameBot>(InPawn);
-	if (Bot && Bot->BotBehavior)
-	{
-		if (Bot->BotBehavior->BlackboardAsset)
-		{
-			Blackboard->InitializeBlackboard(*Bot->BotBehavior->BlackboardAsset);
-		}
-
-		EnemyKeyID = BlackboardComp->GetKeyID("Enemy");
-		BehaviorComp->StartTree(*(Bot->BotBehavior));
-	}*/
-
-}

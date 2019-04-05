@@ -195,7 +195,15 @@ bool ALopolProjectCharacter::GetIsCharacterIsolated()
 
 ////////////////////////////////////////////////////////
 
+void ALopolProjectCharacter::SetIsCharacterInAction(bool Action)
+{
+	bIsInAction = Action;
+}
 
+bool ALopolProjectCharacter::GetIsCharacterInAction()
+{
+	return bIsInAction;
+}
 
 
 

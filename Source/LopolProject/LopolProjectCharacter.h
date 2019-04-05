@@ -116,6 +116,17 @@ public:
 
 
 
+	UFUNCTION(BlueprintCallable, Category = "WhetherInAction")
+		void SetIsCharacterInAction(bool Action);
+
+	UFUNCTION(BlueprintPure, Category = "WhetherInAction")
+		bool GetIsCharacterInAction();
+
+	bool bIsInAction;
+
+
+
+
 	/*
 
 	UFUNCTION(BlueprintCallable, Category = "Identification")
