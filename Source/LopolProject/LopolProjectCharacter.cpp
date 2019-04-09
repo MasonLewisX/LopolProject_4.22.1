@@ -206,7 +206,17 @@ bool ALopolProjectCharacter::GetIsCharacterInAction()
 }
 
 
+/*
+void ALopolProjectCharacter::SetRangedLocation(float RangedLocation)
+{
 
+}
+
+void ALopolProjectCharacter::GetRangedLocation()
+{
+	return 
+}
+*/
 
 
 

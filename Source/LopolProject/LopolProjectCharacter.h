@@ -128,6 +128,18 @@ public:
 
 
 	/*
+	UFUNCTION(BlueprintCallable, Category = "RangedLocation")
+		void SetRangedLocation(float RangedLocation);
+
+	UFUNCTION(BlueprintCallable, Category = "RangedLocation")
+		void GetRangedLocation();
+
+		*/
+
+
+
+
+	/*
 
 	UFUNCTION(BlueprintCallable, Category = "Identification")
 		void SetIsEnemy(bool bIsEnemy);
