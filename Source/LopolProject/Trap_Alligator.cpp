@@ -27,7 +27,27 @@ void ATrap_Alligator::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	/*
+	float t = GetGameTimeSinceCreation();
 
+	//UGameplayStatics::GetAllActorsOfClass(GetWorld(), ATrap_Alligator::StaticClass(), );
+
+
+	ATrap_Alligator* Alligator = FObjectInitializer.CreateDefaultSubobject<ATrap_Alligator>(this, TEXT("Alligators"));
+
+
+
+	FVector p = Alligator->GetActorLocation();
+	
+
+	p.Y = sin(t) * 750.f;
+
+	SetActorLocation(p);
+
+
+
+
+	*/
 
 
 
