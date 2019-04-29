@@ -24,34 +24,10 @@ class LOPOLPROJECT_API ALopolAIController : public AAIController
 public:
 	ALopolAIController(const class FObjectInitializer & ObjectInitializer);
 
-//	virtual void Possess(APawn* InPawn) override;
-
-//	void(SetEnemy(class APawn* InPawn));
-	
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-private:
-	UPROPERTY(transient)
-		UBlackboardComponent* BlackboardComp;
-
-	UPROPERTY(transient)
-		UBehaviorTreeComponent* BehaviorComp;
-
-
-protected:
-//	int32 EnemyKeyID;
 
 
 

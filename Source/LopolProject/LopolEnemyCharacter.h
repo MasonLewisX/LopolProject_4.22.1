@@ -31,18 +31,5 @@ public:
 
 
 
-	/*
 
-protected:
-
-	UFUNCTION(BlueprintCallable, Category = "EnemyProperty")
-		void SetIsEnemy(bool IsEnemy);
-
-	UFUNCTION(BlueprintPure, Category = "EnemyProperty")
-		bool IsEnemy();
-
-	bool bIsEnemy;
-
-
-	*/
 };

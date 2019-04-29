@@ -20,16 +20,6 @@ ALopolPlayerCharacter::ALopolPlayerCharacter()
 
 
 
-
-void ALopolPlayerCharacter::BeginPlay()
-{
-	Super::BeginPlay();
-
-	SetIsEnemy(false);
-
-}
-
-
 void ALopolPlayerCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
@@ -42,29 +32,3 @@ void ALopolPlayerCharacter::Tick(float DeltaTime)
 
 
 
-
-
-/*
-void ALopolPlayerCharacter::SetIsEnemy(bool IsEnemy)
-{
-	bIsEnemy = IsEnemy;
-}
-
-bool ALopolPlayerCharacter::IsEnemy()
-{
-	return bIsEnemy;
-}
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-void ALopolPlayerCharacter::SetDoesCharacterSelected(bool DoesSelected)
-{
-	bDoesCharacterSelected = DoesSelected;
-
-}
-
-bool ALopolPlayerCharacter::DoesCharacterSelected()
-{
-	return  bDoesCharacterSelected;
-
-}*/

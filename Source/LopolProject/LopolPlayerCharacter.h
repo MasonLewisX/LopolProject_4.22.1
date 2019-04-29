@@ -31,33 +31,4 @@ public:
 
 
 
-
-	/*
-
-
-
-protected:
-
-	UFUNCTION(BlueprintCallable, Category = "EnemyProperty")
-		void SetIsEnemy(bool IsEnemy);
-
-	UFUNCTION(BlueprintPure, Category = "EnemyProperty")
-		bool IsEnemy();
-
-	bool bIsEnemy;
-
-
-
-	UFUNCTION(BlueprintCallable, Category = "SelectingCharacter")
-		void SetDoesCharacterSelected(bool DoesSelected);
-
-	UFUNCTION(BlueprintPure, Category = "SelectingCharacter")
-	bool DoesCharacterSelected();
-
-	bool bDoesCharacterSelected;
-
-
-
-
-	*/
 };

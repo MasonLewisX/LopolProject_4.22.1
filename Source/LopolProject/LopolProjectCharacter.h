@@ -81,48 +81,6 @@ public:
 
 public:
 
-	UFUNCTION(BlueprintCallable, Category = "EnemyProperty")
-		void SetIsEnemy(bool IsEnemy);
-
-	UFUNCTION(BlueprintPure, Category = "EnemyProperty")
-		bool IsEnemy();
-
-	bool bIsEnemy;
-
-
-
-	UFUNCTION(BlueprintCallable, Category = "SelectingCharacter")
-		void SetIsCharacterSelected(bool IsCharacterSelected);
-
-	UFUNCTION(BlueprintPure, Category = "SelectingCharacter")
-		bool IsCharacterSelected();
-
-	bool bIsCharacterSelected;
-
-
-
-
-
-
-
-	UFUNCTION(BlueprintCallable, Category = "BehaviorCharacteristic")
-		void SetToBeIsolated(bool Isolate);
-
-	UFUNCTION(BlueprintPure, Category = "BehaviorCharacteristic")
-		bool GetIsCharacterIsolated();
-
-	bool bIsIsolated;
-
-
-
-
-	UFUNCTION(BlueprintCallable, Category = "WhetherInAction")
-		void SetIsCharacterInAction(bool Action);
-
-	UFUNCTION(BlueprintPure, Category = "WhetherInAction")
-		bool GetIsCharacterInAction();
-
-	bool bIsInAction;
 
 
 

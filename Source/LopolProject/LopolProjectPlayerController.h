@@ -53,39 +53,6 @@ protected:
 	//UFUNCTION(BlueprintCallable, Category = "Touch Input")
 	//void TouchRealsed(ETouchIndex::Type FingerIndex, FVector Location);
 
-	
-	
-	FHitResult TouchedResult;
-	
-	// FHitResult TouchedResultSecond;
-
-	FVector2D TouchedLocation;
-
-//	FVector HitLocation;
-
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "CharacterTouchCheck")
-		FString TouchCheckDisplay;
-
-
-	// UFUNCTION(BlueprintCallable, Category = "CharacterSelectedCheck")
-	//	void SetCheckCharacterSelected();
-
-	UFUNCTION(BlueprintPure, Category = "CharacterSelectedCheck")
-		bool CheckCharacterSelected();
-
-	bool bCheckCharacterSelected;
-
-
-/*
-		
-
-	UFUNCTION(BlueprintCallable, Category = "Input Function")
-		void IsDoubleTouched(bool IsDoubleTouched);
-
-	bool bIsDoubleTouched;
-	
-	*/
 
 
 };

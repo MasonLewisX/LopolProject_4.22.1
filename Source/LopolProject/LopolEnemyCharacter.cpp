@@ -27,7 +27,7 @@ void ALopolEnemyCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
-	SetIsEnemy(true);
+
 
 }
 
