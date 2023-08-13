@@ -65,8 +65,9 @@ void ASpawnSkill::Tick(float DeltaTime)
 		// 형 변환이 성공하였을때, 그리고 아이템이 유효하고 활성화되어있을때
 		if (TargetedCharacter && !TargetedCharacter->IsPendingKill()  /*&& TargetedActor->IsActive()*/)
 		{
+			FVector fwoeij = FVector(0.f, 0.f, 750.f);
 			TargetedLocation = TargetedCharacter->GetActorLocation();
-			CenterOfStorm = StormCollision->GetComponentLocation() + FVector::FVector(0.f, 0.f, 750.f); // GetTargetLocation() 써야되나?
+			CenterOfStorm = StormCollision->GetComponentLocation() + fwoeij/*FVector::FVector(0.f, 0.f, 750.f)*/; // GetTargetLocation() 써야되나?
 			VelocityOfStorm = 5.f*(CenterOfStorm - TargetedLocation);
 			//ASimpleGameCharacter* MyCharacter = Cast<ASimpleGameCharacter>(UGameplayStatics::GetPlayerPawn(this, 0));
 			//EnergyConsumed = MyCharacter->GetCurrentPower() * 0.7f;
