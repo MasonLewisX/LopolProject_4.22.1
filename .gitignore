@@ -78,6 +78,7 @@ DerivedDataCache/*
 *.umap
 *.txt
 
+android-studio-ide-193.6514223-windows(Android Sutdio 4.0).exe
 
 # Needed Assets Necessarily
 !EnemyTestBP0.uasset
