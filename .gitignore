@@ -76,7 +76,7 @@ DerivedDataCache/*
 # Blueprints Assets
 *.uasset
 *.umap
-*.txt
+
 
 
 # Needed Assets Necessarily
